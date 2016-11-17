@@ -1,0 +1,274 @@
+/*GENERALE*/
+
+/*Elimino la swottolineatura da tutti i link presenti nella pagina*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:brown;
+}
+
+/*STRUTTURA PAGINA*/
+
+/*Creo il <div> per tutti i contenuti in modo da posizionare tutto al centro della pagina*/
+#contenitore{
+    margin: auto;
+    padding: 0 1% 0 1%;
+    height: 800px;  
+    max-width: 1400px;	 
+}
+
+/*Creo il <div> per la parte intestazione*/
+#intestazione{
+    margin: auto;
+    height: 180px;
+	max-width: 1200px;
+}
+
+/*Creo il <div> per la parte centrale*/
+#corpo{
+    margin: auto;
+    height: 550px;
+    padding: 0 14% 0 14%;
+	max-width: 1200px;
+}
+
+/*Creo il <div> per la seconda parte del corpo per evitare problemi con firefox e gli elementi flottanti*/
+#corpoSotto{
+    margin: auto;
+    margin-top: 50px;
+    height: 300px;
+    padding: 0 14% 0 14%;  
+	max-width: 1200px;
+}
+
+/***CONTENUTI PAGINA***/
+
+/*INTESTAZIONE*/
+
+/*posiziono tutti gli elementi dell'intestazione al loro posto, compresi il logo, la barra di ricerca e il menu alto*/
+#logo{
+    float: left;
+    width: 20%;
+    height: 160px;
+    background-color:#E8E0FF;
+}
+
+#img_logo{
+    margin-left: 40%;
+    margin-top:7%;
+}
+
+#nome_istituto{
+    float: left;
+    width:40%;
+    height: 160px;
+    background-color:#E8E0FF;
+}
+
+#ITC{
+    display: block;
+    margin-top: 20px;
+    font-family: arial;
+    font-size: 30;
+	margin-left:-10%;
+}
+
+#ITC_2{
+    font-family: arial;
+    font-size: 30px;
+    line-height:0px;
+	margin-left:15%;
+    
+}
+
+/*Formatto la barra di ricerca con la relativa freccia*/
+#ricerca{
+    float: left;
+    width: 40%;
+    height: 80px;
+    background-color:#E8E0FF;
+	
+}
+
+#freccia{
+    float: left;
+    margin-right: 2%;
+    margin-top: 35px;
+    margin-left: 27%;
+    
+}
+
+#cerca{
+    float: left; 
+    margin-top: 32px;
+	margin-left:2%
+}
+
+
+#menu_alto{
+    float: left;
+    width: 40%;
+    height: 80px;
+    background-color:#E8E0FF;
+	
+}
+
+
+
+ul .voci_menu_alto{
+    display: block;
+    float: left;
+    margin-left: 3%;
+}
+
+#primo_menu_alto{
+	margin-left:20%
+}
+
+/*PARTE SUPERIORE CORPO*/
+
+/*posiziono con float:left tutti gli elementi della prima e seconda fila in linea partendo dal banner centrale e formattandone i contenuti*/
+
+#banner{
+    float: left;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 30px;
+    
+}
+
+#imgBanner{
+	width:100%;
+}
+#menu{
+    float: left;
+    width: 24%;
+    height: 100px;
+    margin-top: 130px;
+   
+}
+
+#menuSx{
+    font-family: arial;
+    font-size:13px;
+    line-height:10px;
+    list-style: none;
+    margin-left: -18%;
+}
+
+
+
+#menuSx li h3{
+    margin-bottom:0;
+    
+}
+
+#menuSx li{
+    margin-top:10px;   
+}
+
+#news{
+    float: left;
+    width: 50%;
+    height: 220px;
+    margin: 135px -2% 0 0;
+    background-color: #E8E0FF;
+    border-radius: 10px 10px 10px 10px;     
+}
+
+#menu_NEWS{
+    font-family: arial;
+    font-size:13px;
+    list-style: none;
+    margin-left: -6%;
+    line-height: 30px;
+}
+
+#news a{
+    text-decoration: underline;
+}
+
+#offerta_formativa{
+    float: left;
+    width: 25%;
+    height: 100px;
+    margin-top: 130px;
+}
+
+#menu_offerta_formativa li h3{
+    margin-bottom:-6;   
+}
+
+#menu_offerta_formativa li{
+    margin-top:4px;   
+}
+
+#menu_offerta_formativa{
+    font-family: arial;
+    font-size:13px;
+    line-height:15px;
+    list-style: none;
+    margin-left: 10%;
+}
+
+/*PARTE INFERIORE CORPO*/
+
+/*posiziono con float:left tutti gli elementi della seconda fila in linea formattandone i contenuti*/
+
+#openDay{
+    float: left;
+    width: 24%;
+    height: 100px;
+    margin-top: 0px;  
+}
+
+#menu_open_day{
+    font-family: arial;
+    font-size:13px;
+    line-height:10px;
+    list-style: none;
+    margin-left: -18%;
+}
+
+
+
+#menu_open_day li h3{
+    margin-bottom:0;
+    
+}
+
+#presentazione{
+    float: left;
+    width: 50%;
+    height: 220px;
+    margin: 0px -2% 0 0;
+    text-align: justify;
+}
+
+#progetti{
+    float: left;
+    width: 25%;
+    height: 100px;
+    margin-top: 0px;
+	
+}
+
+#menuProgetti li h3{
+    margin-bottom:0;
+    
+}
+
+#menuProgetti{
+    font-family: arial;
+    font-size:13px;
+    line-height:15px;
+    list-style: none;
+    margin-left: 10%;
+}
+
+#menuProgetti li{
+    margin-bottom: -5
+}
